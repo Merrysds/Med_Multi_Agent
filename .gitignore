@@ -1,0 +1,72 @@
+# ==========================
+# Python environment
+# ==========================
+# installers
+*.sh
+*.swp
+*.swo
+
+miniconda3/
+*.pyc
+__pycache__/
+
+
+# ==========================
+# Model files
+# ==========================
+models/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+
+# ==========================
+# Database storage
+# ==========================
+qdrant/
+mysql/
+redis/
+neo4j/
+
+
+# ==========================
+# Docker runtime data
+# ==========================
+docker/overlay2/
+docker/containers/
+docker/image/
+docker/volumes/
+docker/buildkit/
+docker/network/
+docker/plugins/
+docker/runtimes/
+docker/swarm/
+docker/tmp/
+docker/engine-id
+
+# ==========================
+# Dataset
+# ==========================
+fastapi_code/RAG/datasets/
+
+
+# ==========================
+# Environment secrets
+# ==========================
+.env
+
+
+# ==========================
+# Logs/cache
+# ==========================
+*.log
+.cache/
+
+# Docker images archive
+images/
+
+# ==========================
+# OS
+# ==========================
+lost+found/
