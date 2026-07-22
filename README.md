@@ -1,6 +1,7 @@
 # **Med-Multi-Agents**
 ## 项目文档架构
 
+```text
 DATA/（云端服务器盘名称）
 ├── docker/
 │   ├── compose/
@@ -75,8 +76,9 @@ DATA/（云端服务器盘名称）
 │   │       ├── hybrid_search_skill.py
 │   │       └── rerank_skill.py
 │   └── test/
+'''
 
-
+```text
 HybridSearchSkill.py逻辑：
 LangGraph
 
@@ -116,3 +118,4 @@ HybridSearchSkill.run()
    |
    |
  return docs
+'''
